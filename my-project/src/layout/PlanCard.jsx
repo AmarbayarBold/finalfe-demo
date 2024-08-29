@@ -9,7 +9,7 @@ const PlanCard = (props) => {
       <h2 className="font-semibold text-center text-white">{props.title}</h2>
 
       <div className="flex flex-row justify-center items-center">
-        <span className="inline-block">
+        <span className="inline-block text-white">
           <MdOutlineAttachMoney size={22} />
         </span>
         <h3 className="font-semibold text-xl inline-block text-white">
@@ -18,19 +18,19 @@ const PlanCard = (props) => {
       </div>
       <div className=" flex flex-col items-center mt-5">
         <div className="flex flex-row items-center">
-          <span className="inline-block mr-5">
+          <span className="inline-block mr-5 text-blue-400">
             <AiFillCheckCircle size={22} />
           </span>
-          <p>
+          <p className="text-white">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ut
             sit doloribus?
           </p>
         </div>
         <div className="flex flex-row items-center">
-          <span className="inline-block mr-5">
+          <span className="inline-block mr-5 text-blue-400">
             <AiFillCheckCircle size={22} />
           </span>
-          <p>
+          <p className="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et delectus
             voluptas, adipisci illum unde tempora?
           </p>
